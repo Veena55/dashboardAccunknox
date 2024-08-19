@@ -23,7 +23,7 @@ const Category = () => {
                                 }
                             })}
                             <div className='bg-white rounded-md h-[100%] flex  justify-center items-center'>
-                                <button className='text-sm font-semibold border  border-purple-500 text-purple-500  p-2 rounded-md' onClick={() => dispatch(showWidget(true))}>+ Add Widget</button>
+                                <button className='text-sm font-semibold border  border-blue-950 text-blue-950  p-2 rounded-md' onClick={() => dispatch(showWidget(true))}>+ Add Widget</button>
                             </div>
                         </div>
                     </div>

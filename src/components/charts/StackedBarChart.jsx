@@ -22,22 +22,22 @@ const StackedBarChart = ({ attributes }) => {
       {
         label: 'Critical',
         data: [9, 2], // Replace with your data
-        backgroundColor: 'rgba(255, 99, 132, 0.8)', // Red color
+        backgroundColor: '#6e0f0a', // Red color
       },
       {
         label: 'High',
         data: [150, 2], // Replace with your data
-        backgroundColor: 'rgba(255, 159, 64, 0.8)', // Orange color
+        backgroundColor: '#c82819', // Orange color
       },
       {
         label: 'Medium',
         data: [500, 0], // Example data, replace as needed
-        backgroundColor: 'rgba(255, 206, 86, 0.8)', // Yellow color
+        backgroundColor: '#eb9132', // Yellow color
       },
       {
         label: 'Low',
         data: [800, 0], // Example data, replace as needed
-        backgroundColor: 'rgba(75, 192, 192, 0.8)', // Green color
+        backgroundColor: '#f0c341', // Green color
       },
       {
         label: 'None',

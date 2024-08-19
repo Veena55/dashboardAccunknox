@@ -7,7 +7,7 @@ const LeftMenus = () => {
             <div className='flex items-center gap-1'>
                 <a href="#">Home</a>
                 <PiGreaterThan />
-                <a href='#'>Dashboard</a>
+                <a href='#' className='font-bold text-blue-950'>Dashboard</a>
             </div>
         </>
     )
