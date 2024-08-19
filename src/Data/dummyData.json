@@ -1,0 +1,93 @@
+[
+    {
+        "name": "dashboard1",
+        "categories": [
+            {
+                "name": "cat1",
+                "widgets": [
+                    {
+                        "name": "w1",
+                        "attributes": [
+                            {
+                                "name": "Connected",
+                                "value": 2
+                            },
+                            {
+                                "name": "Not connected",
+                                "value": 2
+                            }
+                        ],
+                        "charttype": "dognut",
+                        "isActive": true
+                    },
+                    {
+                        "name": "w2",
+                        "attributes": [
+                            {
+                                "name": "passed",
+                                "value": 5
+                            },
+                            {
+                                "name": "failed",
+                                "value": 2
+                            },
+                            {
+                                "name": "warning",
+                                "value": 1
+                            },
+                            {
+                                "name": "notavailable",
+                                "value": 1
+                            }
+                        ],
+                        "charttype": "dognut",
+                        "isActive": false
+                    }
+                ]
+            },
+            {
+                "name": "cat2",
+                "widgets": [
+                    {
+                        "name": "w1",
+                        "attributes": [
+                            {
+                                "name": "connected",
+                                "value": 2
+                            },
+                            {
+                                "name": "not connected",
+                                "value": 2
+                            }
+                        ],
+                        "charttype": "stack",
+                        "isActive": true
+                    },
+                    {
+                        "name": "w2",
+                        "attributes": [
+                            {
+                                "name": "passed",
+                                "value": 5
+                            },
+                            {
+                                "name": "failed",
+                                "value": 2
+                            },
+                            {
+                                "name": "warning",
+                                "value": 1
+                            },
+                            {
+                                "name": "notavailable",
+                                "value": 1
+                            }
+                        ],
+                        "charttype": "stack",
+                        "isActive": true
+                    }
+                ]
+            }
+        ]
+    }
+]
